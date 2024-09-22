@@ -23,7 +23,7 @@ const App = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:4000/bfhl",
+        "https://bajaj-main-xi.vercel.app/bfhl",
         parsedJson
       );
       setResponseData(response.data);
